@@ -1,8 +1,16 @@
 <script>
-export default
+import AppTitle from "./components/AppTitle.vue"
 
+export default {
+  name: "MyApp",
+  components: {
+    AppTitle
+  }
+};
 </script>
 
-<template></template>
+<template>
+  <AppTitle />
+</template>
 
 <style></style>
